@@ -1,1 +1,1 @@
-# InTalentify-Intelligent-Talent-Identification-
+InTalentify is a web-based platform designed to bridge the placement gap faced by Tier-3 college students. It allows students to create detailed profiles showcasing their academic achievements, skills, and project experience. The platform ranks top talent for easy visibility, helping recruiters discover capable candidates and promoting career growth and industry connections for underrepresented students.
