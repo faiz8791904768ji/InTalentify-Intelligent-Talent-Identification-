@@ -1,0 +1,65 @@
+{
+  "users": [
+    {
+      "id": "5a6540ed-a719-46b9-9272-6563ba35e0b8",
+      "name": "Faiz Khan ",
+      "email": "kkkkkk99999jjj99jjjjj@c",
+      "role": "student",
+      "college": "VCTM",
+      "company": "",
+      "skills": [],
+      "bio": "",
+      "salt": "4b95fcc3ab064fa115f106cc360f4b0e",
+      "hash": "45756e37f01dff19b1af0c89c69d22e9a40e59ab2cab584002e71cb3fb2ea95ed3036041c5787f0980935bb731157e47214555706e72d1ca9d68a79eb1ff1d1f",
+      "createdAt": "2026-10-26T10:08:59.674Z"
+    }
+  ],
+  "jobs": [
+    {
+      "id": "job_1",
+      "title": "Frontend Developer Intern",
+      "company": "Northstar Labs",
+      "location": "Remote",
+      "type": "Internship",
+      "salary": "₹20,000/month",
+      "skills": [
+        "React",
+        "JavaScript",
+        "CSS"
+      ],
+      "description": "Help build thoughtful interfaces for a fast-moving SaaS product.",
+      "createdAt": "2026-10-20"
+    },
+    {
+      "id": "job_2",
+      "title": "Junior Data Analyst",
+      "company": "Ray Analytics",
+      "location": "Bengaluru · Hybrid",
+      "type": "Full-time",
+      "salary": "₹4–6 LPA",
+      "skills": [
+        "Python",
+        "SQL",
+        "Tableau"
+      ],
+      "description": "Turn product data into clear, actionable insights for our customers.",
+      "createdAt": "2026-10-19"
+    },
+    {
+      "id": "job_3",
+      "title": "UI/UX Design Intern",
+      "company": "Collab Studio",
+      "location": "Remote",
+      "type": "Internship",
+      "salary": "₹15,000/month",
+      "skills": [
+        "Figma",
+        "Research",
+        "Prototyping"
+      ],
+      "description": "Join our design team and shape products used by thousands of creators.",
+      "createdAt": "2026-10-18"
+    }
+  ],
+  "applications": []
+}

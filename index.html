@@ -1,0 +1,60 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="InTalentify — discover capable, industry-ready talent from every campus." />
+    <title>InTalentify | Talent beyond the usual campuses</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=DM+Mono:wght@400;500&family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header class="nav wrap">
+      <a class="brand" href="#home" aria-label="InTalentify home"><span class="brand-mark">i</span>InTalentify</a>
+      <nav aria-label="Main navigation">
+        <a href="#talent">Find talent</a><a href="#how-it-works">How it works</a><a href="#impact">Our impact</a>
+      </nav>
+      <div class="nav-actions"><button class="text-button" id="loginButton">Log in</button><button class="button button-small" id="joinButton">Join InTalentify <span>↗</span></button></div>
+    </header>
+
+    <main id="home">
+      <section class="hero wrap">
+        <div class="hero-copy">
+          <p class="eyebrow"><span></span> Talent exists everywhere</p>
+          <h1>The right opportunity<br />shouldn't depend on<br /><em>your postcode.</em></h1>
+          <p class="lede">InTalentify helps ambitious students from Tier-3 colleges turn their skills, projects and potential into careers worth building.</p>
+          <div class="hero-actions"><button class="button" data-scroll="talent">Explore talent <span>↓</span></button><button class="play-link" id="storyButton"><i>▶</i> Watch our story <small>01:28</small></button></div>
+          <div class="community"><div class="faces"><b>AK</b><b>RV</b><b>SM</b><b>+2k</b></div><p><strong>2,400+ students</strong> are already<br />showing what they can do.</p></div>
+        </div>
+        <div class="hero-art" aria-label="Illustration showing connected student talent">
+          <div class="orb orb-a"></div><div class="orb orb-b"></div><div class="grid-line line-a"></div><div class="grid-line line-b"></div>
+          <div class="talent-card card-main"><div class="avatar avatar-main">AR</div><div><strong>Aarav R.</strong><small>Full-stack developer</small></div><span class="verified">✓</span><div class="score">92 <small>Talent score</small></div></div>
+          <div class="talent-card card-project"><span class="mini-icon">⌘</span><div><small>FEATURED PROJECT</small><strong>FarmLink</strong><p>Connecting farmers to markets.</p></div></div>
+          <div class="talent-card card-skill"><span class="pulse"></span><strong>Top 5%</strong><small>in problem solving</small></div>
+          <div class="scribble">potential<br /><b>unlocked</b><span>↙</span></div>
+          <div class="dot-cluster">✦<br />· ✦ ·<br />✦ · ·</div>
+        </div>
+      </section>
+
+      <section class="trust-bar"><div class="wrap"><p>BUILT FOR THE NEW GENERATION OF WORK</p><div class="logos"><span>hirely</span><span>northstar</span><span>ZEN<span>LABS</span></span><span>Collab</span><span>RAY</span></div></div></section>
+
+      <section class="talent-section wrap" id="talent">
+        <div class="section-heading"><div><p class="eyebrow"><span></span> Meet the builders</p><h2>Talent with proof,<br />not just promises.</h2></div><p>Real people. Real projects. A clear view of what each candidate can bring to your team.</p></div>
+        <div class="filters" role="group" aria-label="Talent filters"><button class="filter active" data-filter="all">All talent <b>24</b></button><button class="filter" data-filter="developer">Development</button><button class="filter" data-filter="design">Design</button><button class="filter" data-filter="data">Data &amp; AI</button><button class="filter" data-filter="marketing">Marketing</button></div>
+        <div class="talent-grid" id="talentGrid"></div>
+        <button class="outline-button" id="showMore">Discover more talent <span>→</span></button>
+      </section>
+
+      <section class="how-section" id="how-it-works"><div class="wrap"><div class="how-heading"><p class="eyebrow light"><span></span> Built differently</p><h2>A fairer path from<br />potential to progress.</h2></div><div class="steps"><article><span>01</span><h3>Show your work</h3><p>Build a profile that goes beyond grades — with skills, projects, certifications and the story behind them.</p><i>↗</i></article><article><span>02</span><h3>Get discovered</h3><p>Our talent score surfaces the skills and momentum that make you ready for the right opportunity.</p><i>↗</i></article><article><span>03</span><h3>Build your future</h3><p>Meet teams who value ability over pedigree, and grow with an industry community behind you.</p><i>↗</i></article></div></div></section>
+
+      <section class="impact wrap" id="impact"><div class="impact-visual"><p>THE<br />TALENT<br /><em>MAP</em></p><div class="map-points"><i></i><i></i><i></i><i></i><i></i><i></i><i></i></div><strong>Everywhere</strong></div><div class="impact-copy"><p class="eyebrow"><span></span> The bigger picture</p><h2>Brilliant people are<br />closer than you think.</h2><p>India's smaller campuses are full of determined problem-solvers. We are building the bridge that lets their work speak loudly — to the people and opportunities that matter.</p><div class="stats"><div><strong>85%</strong><span>students from<br />non-metro cities</span></div><div><strong>12k+</strong><span>projects shared<br />with the world</span></div></div></div></section>
+
+      <section class="cta wrap"><div><p class="eyebrow"><span></span> Your next chapter</p><h2>Ready to be<br /><em>seen?</em></h2></div><div><p>Whether you're ready to show your skills or find the people who can move your team forward, this is where it starts.</p><div><button class="button" id="studentButton">I'm a student <span>↗</span></button><button class="text-arrow" id="recruiterButton">I'm hiring <span>→</span></button></div></div></section>
+    </main>
+    <footer><div class="wrap footer-inner"><a class="brand" href="#home"><span class="brand-mark">i</span>InTalentify</a><p>© 2026 InTalentify. Made for potential.</p><div><a href="#">LinkedIn</a><a href="#">Instagram</a><a href="#">Contact</a></div></div></footer>
+    <dialog id="modal"><button class="close-modal" aria-label="Close">×</button><div id="modalContent"></div></dialog>
+    <script src="script.js"></script>
+  </body>
+</html>

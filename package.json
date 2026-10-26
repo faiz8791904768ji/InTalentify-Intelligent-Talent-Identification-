@@ -1,0 +1,8 @@
+{
+  "name": "intalentify",
+  "version": "1.0.0",
+  "description": "A role-based placement platform for underrepresented student talent.",
+  "main": "server.js",
+  "scripts": { "start": "node server.js", "dev": "node --watch server.js" },
+  "license": "MIT"
+}
